@@ -107,7 +107,7 @@ class Robot_CDR():
 
 
     def visualization(self):
-        # plot trajectory
+        # plot speed
         
         plt.plot(self.timer,self.speed_left_list)
         plt.plot(self.timer,self.speed_right_list)
