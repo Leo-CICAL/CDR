@@ -13,7 +13,7 @@ class Robot_CDR():
         rospy.loginfo("Press CTRL + C to terminate")
         
 	
-	self.encodeur_left = 0
+	self.encodeur_left = 1
 	self.encodeur_right = 0
 	
 	self.last_encodeur_right = 0
